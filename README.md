@@ -1,4 +1,4 @@
-cat > README.md <<'EOF'
+README.md
 # Projeto Athenas
 
 O Athenas e uma aplicacao em desenvolvimento para centralizar tarefas, compromissos, mensagens e contexto de trabalho, utilizando inteligencia artificial para auxiliar na organizacao e priorizacao de atividades.
@@ -40,4 +40,3 @@ A primeira versao devera permitir evoluir gradualmente para um fluxo onde o usua
 5. manter historico das informacoes e acoes relevantes.
 
 Mais detalhes de arquitetura e desenvolvimento serao adicionados conforme o projeto evoluir.
-EOF

@@ -1,4 +1,4 @@
-cat > AGENTS.md <<'EOF'
+AGENTS.md
 # Projeto Athenas - Instrucoes para agentes
 
 ## Objetivo
@@ -158,4 +158,3 @@ Quando houver varias solucoes validas, favorecer aquela que:
 2. ensine conceitos relevantes
 3. produza evidencias uteis para portfolio
 4. mantenha o sistema simples
-EOF
