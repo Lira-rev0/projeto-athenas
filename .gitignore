@@ -9,14 +9,24 @@ __pycache__/
 *.py[cod]
 .venv/
 .pytest_cache/
+pytest-cache-files-*/
 .ruff_cache/
 .mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
 
 # Node
 node_modules/
 .next/
 dist/
 coverage/
+out/
+*.tsbuildinfo
+
+# Local package caches
+.cache/
+.pnpm-store/
 
 # IDE
 .vscode/
