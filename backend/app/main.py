@@ -4,6 +4,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 
 from app.api.routes.health import router as health_router
+from app.api.routes.tasks import router as tasks_router
 from app.core.config import Settings
 from app.db.session import create_database_engine
 
@@ -20,6 +21,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
 
     application = FastAPI(title="Athenas API", version="0.1.0", lifespan=lifespan)
     application.include_router(health_router)
+    application.include_router(tasks_router)
     return application
 
 

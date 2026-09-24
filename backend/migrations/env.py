@@ -5,12 +5,12 @@ from alembic import context
 from app.core.config import Settings
 from app.db.base import Base
 from app.db.session import create_database_engine
+from app.models.task import Task  # noqa: F401 -- registra o modelo no metadata do Alembic
 
 config = context.config
 if config.config_file_name is not None:
     fileConfig(config.config_file_name)
 
-# Importe aqui os futuros modelos antes de usar autogenerate.
 target_metadata = Base.metadata
 
 
