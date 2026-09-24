@@ -10,6 +10,21 @@ O Projeto Athenas possui dois objetivos complementares:
 
 O projeto deve privilegiar qualidade demonstravel, clareza arquitetural, boas praticas e aprendizado profissional.
 
+## Fontes de verdade do projeto
+
+Antes de implementar mudanças relevantes, leia:
+
+- `README.md`: estado atual e instruções de execução;
+- `docs/product.md`: visão, problema, escopo e princípios do produto;
+- `docs/architecture.md`: arquitetura técnica atual;
+- `docs/roadmap.md`: sequência de evolução planejada.
+
+O conteúdo atual do repositório tem prioridade sobre contexto de conversas anteriores.
+
+Chats, prompts e memória de agentes são auxiliares e não devem substituir a documentação versionada.
+
+Quando uma implementação alterar produto, arquitetura ou roadmap, atualize somente os documentos realmente afetados.
+
 ## Visao do produto
 
 O Athenas deve futuramente integrar fontes como:
